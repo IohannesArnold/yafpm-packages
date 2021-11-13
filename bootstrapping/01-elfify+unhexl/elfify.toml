@@ -1,0 +1,18 @@
+package_name = "elfify"
+package_version = "0.0.1"
+hash = "1d281432e4ac88b5a54c8f939816897a0f258424f9f01208fad8ab5637f7f42f"
+build_command = "/tmp/unhex-0.0.1-E3YXKRQTS3Y4XESYAVAW23VXLXEGONLXMRCXZS42QSELBJXINPDA/unhex"
+build_command_args = [
+"/elfify.x",
+"/tmp/elfify-0.0.1-DUUBIMXEVSELLJKMR6JZQFUJPIHSLBBE7HYBECH23CVVMN7X6QXQ/elfify"
+]
+
+[[dependencies]]
+name = "unhex"
+version = "0.0.1"
+hash = "26f175461396f1cb925805416d6eb75dc867357764457ccb9a8488b0a6e86bc6"
+
+[[resources]]
+name = "elfify.x"
+hash = "72a383f987bc810e326d52faacb222f50ad8633dc87a102076a476f8c4028399"
+url = "https://github.com/IohannesArnold/hex2asm/raw/master/1-unhexl%2Belfify/elfify.x"

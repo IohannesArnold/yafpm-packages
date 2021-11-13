@@ -1,0 +1,19 @@
+package_name = "unhexl"
+package_version = "0.0.1"
+hash = "c2310d7fa030f0ef89abbd99d64b6f4c10ef368f1f79316ae3192a010372135d"
+build_command = "/tmp/elfify-0.0.1-DUUBIMXEVSELLJKMR6JZQFUJPIHSLBBE7HYBECH23CVVMN7X6QXQ/elfify"
+build_command_args = [
+"/tmp/unhexl.ts-0.0.1-JZBBOPQ4YVWH7IC3IHE4U3RUTYIJFBFO6AAZWHGPTXIM2CA3IWHQ/unhexl.ts",
+"/tmp/unhexl-0.0.1-YIYQ275AGDYO7CNLXWM5MS3PJQIO6NUPD54TC2XDDEVACA3SCNOQ/unhexl"
+]
+resources = []
+
+[[dependencies]]
+package_name = "elfify"
+package_version = "0.0.1"
+hash = "1d281432e4ac88b5a54c8f939816897a0f258424f9f01208fad8ab5637f7f42f"
+
+[[dependencies]]
+package_name = "unhexl.ts"
+package_version = "0.0.1"
+hash = "4e42173e1cc56c7fa05b41c9ca6e349e109284aef0019b1ccf9dd0cd081b458f"

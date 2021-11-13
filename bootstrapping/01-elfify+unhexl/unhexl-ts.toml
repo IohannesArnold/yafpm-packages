@@ -1,0 +1,18 @@
+package_name = "unhexl.ts"
+package_version = "0.0.1"
+hash = "4e42173e1cc56c7fa05b41c9ca6e349e109284aef0019b1ccf9dd0cd081b458f"
+build_command = "/tmp/unhex-0.0.1-E3YXKRQTS3Y4XESYAVAW23VXLXEGONLXMRCXZS42QSELBJXINPDA/unhex"
+build_command_args = [
+"/unhexl.ts.x",
+"/tmp/unhexl.ts-0.0.1-JZBBOPQ4YVWH7IC3IHE4U3RUTYIJFBFO6AAZWHGPTXIM2CA3IWHQ/unhexl.ts"
+]
+
+[[dependencies]]
+name = "unhex"
+version = "0.0.1"
+hash = "26f175461396f1cb925805416d6eb75dc867357764457ccb9a8488b0a6e86bc6"
+
+[[resources]]
+name = "unhexl.ts.x"
+hash = "4d4879d020aefbdbd1373b37a89e4872c2f3b3211804d81346d7425a32c94682"
+url = "https://github.com/IohannesArnold/hex2asm/raw/master/1-unhexl%2Belfify/unhexl.ts.x"
