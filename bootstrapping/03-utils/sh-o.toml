@@ -1,0 +1,18 @@
+package_name = "sh.o"
+package_version = "0.0.1"
+hash = "d1b5e22bb3df4a89a48889d1ee5ffeaa9feaca28d8c620a2e667fbdc95f5adee"
+build_command = "/tmp/as-0.0.1-3XYTYN7FJI25JJKY75W24SZV5MYSEBSYSULIGIAC7UUAT44SCOJA/as"
+build_command_args = [
+"/sh.s",
+"/tmp/sh.o-0.0.1-2G26EK5T35FITJEIRHI64X76VKP6VSRI3DDCBIXGM755ZFPVVXXA/sh.o"
+]
+
+[[resources]]
+name = "sh.s"
+hash = "8278958e3bdb5cedf4d884429b67c890ecba0ab22fd5923daab818f784581f37"
+url = "https://raw.githubusercontent.com/IohannesArnold/hex2asm/master/4-asmutils/sh.s"
+
+[[dependencies]]
+package_name = "as"
+package_version = "0.0.1"
+hash = "ddf13c37e54a35d4a558ff6dae4b35eb312206589516832002fd2809f3921392"

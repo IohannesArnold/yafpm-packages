@@ -1,0 +1,21 @@
+package_name = "sh"
+package_version = "0.0.1"
+hash = "7c28535ec4e2f19762d53b9a6efa5b7e2099fe497195b4fb686351326ab84841"
+build_command = "/tmp/ld-0.0.1-CFPHL4W7TVSCQT5FSTWJV5JODFCGCSYSY4NG7POACCKTALRQEBGQ/ld"
+build_command_args = [
+"-o",
+"/tmp/sh-0.0.1-PQUFGXWE4LYZOYWVHONG56S3PYQJT7SJOGK3J63IMNITE2VYJBAQ/sh",
+"/tmp/sh.o-0.0.1-2G26EK5T35FITJEIRHI64X76VKP6VSRI3DDCBIXGM755ZFPVVXXA/sh.o"
+]
+resources = []
+
+[[dependencies]]
+package_name = "ld"
+package_version = "0.0.1"
+hash = "115e75f2df9d64284fa594ec9af52e1944614b12c71a6fbdc01095302e30204d"
+
+[[dependencies]]
+package_name = "sh.o"
+package_version = "0.0.1"
+hash = "d1b5e22bb3df4a89a48889d1ee5ffeaa9feaca28d8c620a2e667fbdc95f5adee"
+
