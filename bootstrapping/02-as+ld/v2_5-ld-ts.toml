@@ -1,0 +1,18 @@
+package_name = "ld.ts"
+package_version = "0.0.1"
+hash = "63efa3db757b1316ad84119e6847c3249fc2ed770b6258022e37c502766595b3"
+build_command = "/tmp/as-0.0.1-5K3KKDWSSDVANGHLWGEOSYGVZJEXWYASBW4ZHSY2OX67N7EOGVLQ/as"
+build_command_args = [
+"/ld.s",
+"/tmp/ld.ts-0.0.1-MPX2HW3VPMJRNLMECGPGQR6DESP4F3LXBNRFQAROG7CQE5TFSWZQ/ld.ts"
+]
+
+[[resources]]
+name = "ld.s"
+hash = "2c6cdf9be49c7ff19023a05b2f3eaa9c38b53206bbe52ba9ab0e5e9c4b3c8991"
+url = "https://raw.githubusercontent.com/IohannesArnold/hex2asm/master/3-as%2Bld/ld.s"
+
+[[dependencies]]
+package_name = "as"
+package_version = "0.0.1"
+hash = "eab6a50ed290ea0698ebb188e960d5ca497b60120db993cb1a75fdf6fc8e3557"

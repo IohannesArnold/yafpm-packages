@@ -1,0 +1,20 @@
+package_name = "as"
+package_version = "0.0.1"
+hash = "48e6c356ecc4867e4c8e9a3fb3bc8c629bc27383b505e5bf9c1583c4c86e786e"
+build_command = "/tmp/elfify-0.0.1-DUUBIMXEVSELLJKMR6JZQFUJPIHSLBBE7HYBECH23CVVMN7X6QXQ/elfify"
+build_command_args = [
+"/tmp/as.ts-0.0.1-LBX2GCALXNL3ISVAM6MSN5WXEBJFJO7R3P4K6DGWMJU7YKD3PTFA/as.ts",
+"/tmp/as-0.0.1-JDTMGVXMYSDH4TEOTI73HPEMMKN4E44DWUC6LP44CWB4JSDOPBXA/as"
+]
+resources = []
+
+[[dependencies]]
+package_name = "elfify"
+package_version = "0.0.1"
+hash = "1d281432e4ac88b5a54c8f939816897a0f258424f9f01208fad8ab5637f7f42f"
+
+[[dependencies]]
+package_name = "as.ts"
+package_version = "0.0.1"
+hash = "586fa3080bbb57b44aa0679926f6d7205254bbf1dbf8af0cd66269fc287b7cca"
+

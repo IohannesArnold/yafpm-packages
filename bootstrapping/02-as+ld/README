@@ -1,0 +1,11 @@
+The order here is a bit tricky, so this README explains.
+1) v2-as-ts.toml runs to assemble the stage 2 assembler object file.
+2) v2-as.toml runs to turn the object file into an executable using elfify.
+3) v2_5-as-ts.toml runs to assemble the stage 3 assembler object file using 2.
+4) v2_5-as.toml runs to turn the object file into an executable using elfify.
+5) v2_5-ld-ts.toml runs to assemble the stage 3 linker object file using 2.
+6) v2_5-ld.toml runs to turn the object file into an executable using elfify.
+7) v3-as-o.toml runs to assemble the stage 3 assembler object file using 4.
+8) v3-as.toml runs to turn the object file into an executable using 6.
+9) v3-ld-ts.toml runs to assemble the stage 3 linker object file using 4.
+10) v3-ld.toml runs to turn the object file into an executable using 6.

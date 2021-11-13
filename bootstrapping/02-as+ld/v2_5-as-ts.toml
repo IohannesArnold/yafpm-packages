@@ -1,0 +1,18 @@
+package_name = "as.ts"
+package_version = "0.0.1"
+hash = "586fa3080bbb57b44aa0679926f6d7205254bbf1dbf8af0cd66269fc287b7cca"
+build_command = "/tmp/as-0.0.1-5K3KKDWSSDVANGHLWGEOSYGVZJEXWYASBW4ZHSY2OX67N7EOGVLQ/as"
+build_command_args = [
+"/as.s",
+"/tmp/as.ts-0.0.1-LBX2GCALXNL3ISVAM6MSN5WXEBJFJO7R3P4K6DGWMJU7YKD3PTFA/as.ts"
+]
+
+[[resources]]
+name = "as.s"
+hash = "8f1f2d7ccf68e2af683cb1caf06a7420ac306ec0a8ef5f35829d23ca8d3dc5f6"
+url = "https://raw.githubusercontent.com/IohannesArnold/hex2asm/master/3-as%2Bld/as.s"
+
+[[dependencies]]
+package_name = "as"
+package_version = "0.0.1"
+hash = "eab6a50ed290ea0698ebb188e960d5ca497b60120db993cb1a75fdf6fc8e3557"

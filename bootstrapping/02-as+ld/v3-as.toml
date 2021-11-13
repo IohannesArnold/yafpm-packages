@@ -1,0 +1,21 @@
+package_name = "as"
+package_version = "0.0.1"
+hash = "ddf13c37e54a35d4a558ff6dae4b35eb312206589516832002fd2809f3921392"
+build_command = "/tmp/ld-0.0.1-3SSM5D6WMT2W6UCENVRIAV6VZPEX4BA2ANW5K4BSZB2JTB5WJFEA/ld"
+build_command_args = [
+"-o",
+"/tmp/as-0.0.1-3XYTYN7FJI25JJKY75W24SZV5MYSEBSYSULIGIAC7UUAT44SCOJA/as",
+"/tmp/as.o-0.0.1-MLHFSANDDDGGRSRQTMFI7YWSWH3RSC37Y2WSR3PHTRDJN24UYYCQ/as.o"
+]
+resources = []
+
+[[dependencies]]
+package_name = "ld"
+package_version = "0.0.1"
+hash = "dca4ce8fd664f56f50446d628057d5cbc97e041a036dd57032c8749987b64948"
+
+[[dependencies]]
+package_name = "as.o"
+package_version = "0.0.1"
+hash = "62ce5901a318cc68ca309b0a8fe2d2b1f7190b7fc6ad28ede79c4696eb94c605"
+

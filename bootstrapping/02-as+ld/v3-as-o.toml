@@ -1,0 +1,18 @@
+package_name = "as.o"
+package_version = "0.0.1"
+hash = "62ce5901a318cc68ca309b0a8fe2d2b1f7190b7fc6ad28ede79c4696eb94c605"
+build_command = "/tmp/as-0.0.1-JDTMGVXMYSDH4TEOTI73HPEMMKN4E44DWUC6LP44CWB4JSDOPBXA/as"
+build_command_args = [
+"/as.s",
+"/tmp/as.o-0.0.1-MLHFSANDDDGGRSRQTMFI7YWSWH3RSC37Y2WSR3PHTRDJN24UYYCQ/as.o"
+]
+
+[[resources]]
+name = "as.s"
+hash = "8f1f2d7ccf68e2af683cb1caf06a7420ac306ec0a8ef5f35829d23ca8d3dc5f6"
+url = "https://raw.githubusercontent.com/IohannesArnold/hex2asm/master/3-as%2Bld/as.s"
+
+[[dependencies]]
+package_name = "as"
+package_version = "0.0.1"
+hash = "48e6c356ecc4867e4c8e9a3fb3bc8c629bc27383b505e5bf9c1583c4c86e786e"

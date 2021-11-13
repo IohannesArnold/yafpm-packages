@@ -1,0 +1,20 @@
+package_name = "ld"
+package_version = "0.0.1"
+hash = "dca4ce8fd664f56f50446d628057d5cbc97e041a036dd57032c8749987b64948"
+build_command = "/tmp/elfify-0.0.1-DUUBIMXEVSELLJKMR6JZQFUJPIHSLBBE7HYBECH23CVVMN7X6QXQ/elfify"
+build_command_args = [
+"/tmp/ld.ts-0.0.1-MPX2HW3VPMJRNLMECGPGQR6DESP4F3LXBNRFQAROG7CQE5TFSWZQ/ld.ts",
+"/tmp/ld-0.0.1-3SSM5D6WMT2W6UCENVRIAV6VZPEX4BA2ANW5K4BSZB2JTB5WJFEA/ld"
+]
+resources = []
+
+[[dependencies]]
+package_name = "elfify"
+package_version = "0.0.1"
+hash = "1d281432e4ac88b5a54c8f939816897a0f258424f9f01208fad8ab5637f7f42f"
+
+[[dependencies]]
+package_name = "ld.ts"
+package_version = "0.0.1"
+hash = "63efa3db757b1316ad84119e6847c3249fc2ed770b6258022e37c502766595b3"
+

@@ -1,0 +1,21 @@
+package_name = "ld"
+package_version = "0.0.1"
+hash = "115e75f2df9d64284fa594ec9af52e1944614b12c71a6fbdc01095302e30204d"
+build_command = "/tmp/ld-0.0.1-3SSM5D6WMT2W6UCENVRIAV6VZPEX4BA2ANW5K4BSZB2JTB5WJFEA/ld"
+build_command_args = [
+"-o",
+"/tmp/ld-0.0.1-CFPHL4W7TVSCQT5FSTWJV5JODFCGCSYSY4NG7POACCKTALRQEBGQ/ld",
+"/tmp/ld.o-0.0.1-HF3ZBQ6MHJDRML34SUJDRCHRYKORT7QPR6RBVYLNEDVRMMVH34JQ/ld.o"
+]
+resources = []
+
+[[dependencies]]
+package_name = "ld"
+package_version = "0.0.1"
+hash = "dca4ce8fd664f56f50446d628057d5cbc97e041a036dd57032c8749987b64948"
+
+[[dependencies]]
+package_name = "ld.o"
+package_version = "0.0.1"
+hash = "397790c3cc3a47162f7c95123888f1c29d19fe0f8fa21ae16d20eb1632a7df13"
+
