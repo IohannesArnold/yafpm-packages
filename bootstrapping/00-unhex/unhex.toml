@@ -15,8 +15,7 @@ hash = "608b2cbd0dff1ec5199163f45e0587e359d4a6e4b5df62ea71a539cd924093e1"
 url = "https://raw.githubusercontent.com/IohannesArnold/hex2asm/master/0-unhex/unhex.x"
 
 [[resources]]
+# This file cannot be downloaded over the internet because the exec bit must be set.
 name = "unhex"
 hash = "0c3fed118c7fdb48214d71457dd97172edf6a35ba4a4ff3b9885c020ead0c992"
-# This file cannot be downloaded over the internet because the exec bit must be set.
-# Replace SRCDIR with the location of the source directory
-url = "file://SRCDIR/bootstrapping/00-unhex/unhex"
+url = "./unhex"
