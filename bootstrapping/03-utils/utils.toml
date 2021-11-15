@@ -1,0 +1,37 @@
+package_name = "utils"
+package_version = "0.0.1"
+hash = "cbd175c0cfcdf71e912100441fcb9d3a932d7799571111ab6f25e71cb3c336ba"
+build_command = "/tmp/sh-0.0.1-PQUFGXWE4LYZOYWVHONG56S3PYQJT7SJOGK3J63IMNITE2VYJBAQ/sh"
+build_command_args = [
+"/build.sh",
+]
+
+[[resources]]
+name = "build.sh"
+hash = "21a415df012dec4c5b035fe46322210a266cb17a8e171f1278d69f0550fc3b4d"
+url = "./build.sh"
+
+[[resources]]
+name = "ln.s"
+hash = "1dc723c131f0198ebbd19358df5d81723cb646242e2c06d9082a37b32812d002"
+url = "https://raw.githubusercontent.com/IohannesArnold/hex2asm/master/4-asmutils/ln.s"
+
+[[resources]]
+name = "mkdir.s"
+hash = "77921aeb766a7bb6f71def5c6fef17003b65bfbb926eab3626a716d37ff3e617"
+url = "https://raw.githubusercontent.com/IohannesArnold/hex2asm/master/4-asmutils/mkdir.s"
+
+[[dependencies]]
+package_name = "sh"
+package_version = "0.0.1"
+hash = "7c28535ec4e2f19762d53b9a6efa5b7e2099fe497195b4fb686351326ab84841"
+
+[[dependencies]]
+package_name = "as"
+package_version = "0.0.1"
+hash = "ddf13c37e54a35d4a558ff6dae4b35eb312206589516832002fd2809f3921392"
+
+[[dependencies]]
+package_name = "ld"
+package_version = "0.0.1"
+hash = "115e75f2df9d64284fa594ec9af52e1944614b12c71a6fbdc01095302e30204d"
